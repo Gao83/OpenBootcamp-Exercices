@@ -8,6 +8,7 @@ import EjemploUseState from './hooks/Ejemplo1';
 import Ejemplo2 from './hooks/Ejemplo2';
 import MiComponenteConContexto from './hooks/Ejemplo3';
 import Ejemplo4 from './hooks/Ejemplo4';
+import Square from './components/4_ColorsEvents/Square'
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <ComponenteEstado /> */}
       {/* <Clock /> */}
       {/* <ClockFunction /> */}
-      <ListaContactos />
+      {/* <ListaContactos /> */}
+      <Square />
     </div>
   );
 }
