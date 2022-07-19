@@ -9,6 +9,7 @@ import Ejemplo2 from './hooks/Ejemplo2';
 import MiComponenteConContexto from './hooks/Ejemplo3';
 import Ejemplo4 from './hooks/Ejemplo4';
 import Square from './components/4_ColorsEvents/Square'
+import TaskFormik from './components/5_TaskFormikYup/TaskFormik';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <Clock /> */}
       {/* <ClockFunction /> */}
       {/* <ListaContactos /> */}
-      <Square />
+      {/* <Square /> */}
+      <TaskFormik />
     </div>
   );
 }
